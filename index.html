@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/registration_number.css">
+  </head>
+  <body>
+   <div class="container">
+   <div class="row">
+      <h1>Registration Number</h1>
+        <div id="box">
+         <div class='boxModel'>
+     <form id="regNo">
+              <b> Registration Number:</b><input id='textSearch' type='text' value=''>
+               <button id='submit' type="button"  onclick="addReg()">Add</button>
+
+                  <div class="myTowns">
+                  <select id="drop">
+
+                  <option name='town' value='all'>All</option>
+                <option name='town' value='CA'>Cape Town</option>
+                <option name='town' value='CY' >Bellville</option>
+                <option name='town' value='CJ'>Paarl</option>
+                <option name='town' value='CL'>Stellenbosch</option>
+                 <option name='town' value='CN'>Wellington</option>
+                <option name='town' value='CV'>Vredendal</option>
+               </select>
+
+           </div>
+    </form>
+     <ul id="output"></ul>
+     </div>
+     </div>
+     </div>
+      </div>
+     </body>
+  <script src="registration_number.js" charset="utf-8"></script>
+</html>

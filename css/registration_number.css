@@ -1,0 +1,62 @@
+.container{
+  background-color:pink;
+}
+h1{
+  background-color:rgb(139, 96, 108);
+  text-align: center;
+  font-family: cursive;
+  /*font-size: 36;*/
+  size:20%;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-shadow: 0px 2px 3px;
+  font-size: 2em;
+}
+body{
+  font-size: 2em;
+}
+.boxModel{
+
+  /*border: 6px solid #324644;*/
+  height: 150px;
+  margin: 20px;
+  padding: 70px;
+  width: 800px;
+  border-radius:20%;
+}
+.submit:hover{
+  background-color:green;
+
+}
+.myTowns{
+  float: right;
+  /*padding: 70px;*/
+  margin-bottom: 100px;
+}
+.myTowns:hover{
+
+
+font-size: 16px;
+cursor:pointer
+position: relative;
+ display: inline-block;
+}
+
+
+
+
+html{
+  background-color:#555;
+  /*background-color: white;*/
+
+
+}
+
+
+li{
+  border: 5px solid;
+    padding: 10px;
+    background: yellow;
+    border-radius:30%;
+    float: left;
+    list-style: none;
+}
